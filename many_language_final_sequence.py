@@ -415,7 +415,7 @@ graph.set_finish_point("review_and_pr")
 GITHUB_URL = "https://github.com/VaishnaviRavindrapatil/Test_Java_Files.git"
 #GITHUB_URL = "https://github.com/VaishnaviRavindrapatil/Test_Python_File.git"
 LOCAL_BASE_DIR = r"C:\Users\vaishnaviravindra_pa\Documents"
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = " "
 
 TARGET_BRANCH = input("Enter the branch name to push changes: ")
 
@@ -432,4 +432,5 @@ inputs: ProjectState = {
 
 app = graph.compile()
 result = app.invoke(inputs)
+
 print("✅ Flow completed. Recommendation:", result.get("recommendation"))
